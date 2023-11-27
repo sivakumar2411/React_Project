@@ -1,0 +1,218 @@
+.totalpp
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(20, 20, 20),rgb(17,17,17));
+}
+#leftpp
+{
+    background-color: rgb(31, 31, 31);
+    /* background-color: black; */
+    position: absolute;
+    height: 550px;
+    width: 350px;
+    /* border: 3px groove white; */
+    border-radius: 20px;
+    top: 90px;
+    left: 220px;
+    box-shadow: 1px 2px 15px 5px black;
+}
+#rightpp
+{
+    background-color: rgb(31, 31, 31);
+    /* background-color: white; */
+    position: absolute;
+    height: 550px;
+    width: 750px;
+    left: 370px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 15px 5px black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#lefttoppp
+{
+    position: absolute;
+    border: 2px solid white;
+    width: 320px;
+    height: 280px;
+    left: 15px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftbottompp
+{
+    position: absolute;
+    /* border: 2px solid white; */
+    width: 320px;
+    height: 200px;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftbottompp ul
+{
+    color: white;
+    font-size: 18px;
+    justify-content: space-around;
+    list-style: none;
+    font-family: Lora, serif;
+    cursor: pointer;
+}
+.cpp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circlepp
+{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: rgb(6, 14, 41);
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#circlepp::after
+{
+    content: '';
+    position: absolute;
+    height:250px;
+    width: 250px;
+    background: conic-gradient(transparent,transparent,rgb(245, 215, 20));
+    /* opacity: .7; */
+    animation: pro 6s linear infinite;
+}
+@keyframes pro
+{
+    0%{transform:rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+#circlepp span{
+    inset: 5px;
+    position: absolute;
+    background-color: grey;
+    border-radius: 50%;
+    z-index: 1;
+}
+#namepp
+{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px groove white ;
+    width: 297px;
+}
+#usernamepp
+{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px groove white ;
+    width: 297px;
+}
+#detailspp
+{
+    /* border: 2px groove white; */
+    height: 510px;
+    width: 700px;
+    position: absolute;
+    left: 60px;
+}
+#regionpp
+{
+    width: 160px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#Yearpp
+{
+    margin-left: 8px;
+    width: 130px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    /* background-color: black;
+    color: white; */
+}
+#infonamepp
+{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+#infoemailpp
+{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+/* #mailico
+{
+    position: absolute;
+    color: black;
+    left: 278px;
+    top: 97px;
+} */
+#setpp button
+{
+    height: 35px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px groove rgb(55, 255, 0);
+    outline: none;
+    color: white;
+}
+#setpp{
+    position: absolute;
+    /* border: 2px groove white; */
+    height: 120px;
+    width: 500px;
+    top: 310px;
+    left: 160px;
+}
+#detailspp h4{
+    position: absolute;
+    top: 315px;
+}
+.savepp
+{
+    position: absolute;
+    left: 530px;
+    top: 160px;
+}
+.editpp
+{
+    position: absolute;
+    left: 490px;
+    top: 160px;
+}
+#sidepp
+{
+    margin: 12px;
+}

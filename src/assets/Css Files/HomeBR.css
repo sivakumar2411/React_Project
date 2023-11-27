@@ -1,0 +1,117 @@
+#smallshow
+{
+    background-color: rgb(32, 32, 32);
+}
+.smallshow
+{
+    animation:lefttorightfilling 25s linear forwards infinite;
+    background-color: rgba(0, 0, 0, 0.3);
+    backface-visibility: visible;
+}
+@keyframes lefttorightfilling
+{
+    0% {width:290px;}
+    20%{width: 0px;}
+    100%{width: 0px;}
+}
+#homebasediv
+{
+    background:linear-gradient(rgb(20, 20, 20),rgb(17,17,17));
+    color:white;
+}
+#pillarofshowcase
+{
+    border-radius:20px 100px;
+    box-shadow: 2px 1.5px 10px 3px rgb(14,14,14);
+    background-color: rgb(23, 23, 23);
+}
+#bigshow
+{
+    position: relative;
+    width:550px;height:652px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+    border-radius:10px 0px 0px 10px;
+    animation:movingline 10s linear forwards infinite;
+}
+/* #bigshow::after
+{
+    content: '';
+    position: absolute;
+    height: 752px;
+    width: 650px;
+    background: conic-gradient(transparent,transparent,transparent,rgb(17, 255, 0));
+    animation: movingline 4s linear infinite;
+} */
+@keyframes movingline
+{
+    0%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px orangered, 0px 0px 10px 4px orangered;}
+    20%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px rgb(17, 255, 0), 0px 0px 10px 4px rgb(17, 255, 0);}
+    40%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px rgb(255, 0, 162), 0px 0px 10px 4px rgb(255, 0, 162);}
+    60%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px rgb(238, 255, 0), 0px 0px 10px 4px rgb(238, 255, 0);}
+    80%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px rgb(255, 0, 0), 0px 0px 10px 4px rgb(255, 0, 0);}
+    100%{box-shadow:0px 0px 5px 0.1px white, 0px 0px 5px 2px rgb(0, 255, 242), 0px 0px 10px 4px rgb(0, 255, 242);}
+}
+#smallsobox
+{
+    background-color: rgb(20, 20, 20);
+    border-radius: 12px;
+    box-shadow: 1.5px 1px 13px 4px rgb(15, 15, 15);
+}
+#profsi
+  {
+    position: relative;
+    /* border: 5px groove grey; */
+    height: 150px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-image: url("../Images/bbyprof1.avif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+  }
+  #profsi::after
+  {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(transparent,transparent,rgb(205, 83, 18)
+    );
+    animation: sk 4s linear infinite;
+  }
+  #profsi::before
+  {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(transparent,transparent,rgb(198, 8, 205)
+    );
+    animation: sk 4s linear infinite;
+    animation-delay: -2s;
+  }
+  @keyframes sk
+  {
+    0%
+    {
+      transform: rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg);
+    }
+  }
+  #profsi span
+  {
+      position: absolute;
+      inset: 5px;
+      border-radius: 50%;
+      background-image: url("../Images/bbyprof1.avif");
+      background-size: 100%;
+      z-index: 1;
+  }

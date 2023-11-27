@@ -1,0 +1,17 @@
+#bookselectionbut
+{
+    background-color: rgb(31,31,31);
+    outline: none;
+    border:.7px groove rgb(36, 185, 36);
+    color:rgb(45, 177, 45);
+    box-shadow: -1px 1px 3px 1px rgb(48, 239, 48);
+    cursor: pointer;
+}
+#bookselectionbut:hover
+{
+    color:white;
+    margin-top: 1px;
+    margin-right: 1px;
+    background-color: rgb(36, 185, 36);
+    border-color: white;
+}

@@ -1,0 +1,91 @@
+#base
+{
+    width:100%;
+    height:600px;
+    box-sizing: border-box;
+    background-image: url('../Images/Home.jpg');
+    background-size: 100%;
+    opacity: 0.9;
+    background-repeat: none;
+    position: absolute;
+}
+ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+#navul
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+li
+{
+    width:auto;
+    height:40px;
+}
+#nli
+{
+    padding: 15px;
+    transition: 300ms;
+    cursor: pointer;
+}
+#nli:hover
+{
+    padding-top:5px;
+    font-size: 33px;
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+    border-bottom: 2px groove rgb(255, 255, 255);
+}
+#nli:active
+{
+    
+}
+#sli
+{
+    margin-top: 10px;
+    font-size: large;
+    width:90px;
+    height:30px;
+    cursor: pointer;
+}
+#navbar,#sidebar
+{
+    position:absolute;
+}
+#sidebar
+{
+    background-color: black;
+    height:600px ;
+    justify-content:space-evenly;
+    opacity: 0.7;
+    box-shadow: 2px 1px 8px 2px rgb(34, 34, 34);
+    border-radius: 0px 50px 0px 0px;
+}
+#navbar
+{
+    width:80%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#menuexit
+{
+    top:5px;
+    right: 10px;
+    color: white;
+    text-shadow: -1px 1px 3px orangered,-2px 2px 6px orangered;
+    font-size: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+}
+#menuexit:hover
+{
+    color: orangered;
+    top:6px;right: 11px;
+    text-shadow:-2px 2px 6px orangered;
+}

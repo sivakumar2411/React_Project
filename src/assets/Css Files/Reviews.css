@@ -1,0 +1,13 @@
+#reviewbasediv
+{
+    background:linear-gradient(rgb(20, 20, 20),rgb(17,17,17));
+    color: white;
+}
+#bookdetailsdynamicdiv
+{
+    padding-top: 60px;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    border-radius:0px 90px 70px 70px;
+    box-shadow: 0px 0px 10px 1px black;
+}

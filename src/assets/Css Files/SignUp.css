@@ -1,0 +1,112 @@
+#outerup
+{
+    box-shadow: -2px 3px 7px 3px black;
+    border-radius: 20px;
+    height: 550px;
+    width:500px;
+    margin-left: 500px;
+    margin-top: 5%;
+    background-color: white;
+}
+#headup
+{
+    padding-left: 7%;
+    color: rgb(1, 1, 15);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#iconup
+{
+    padding-left: 60%;
+    padding-top: 0%;
+}
+  #cancelup
+  {
+    height:100px;
+    width:100px;
+  }
+  #topup
+  {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 20px;
+  }
+  #xupu
+  {
+    background-color: rgb(98, 97, 97);
+    border-radius: 3px;
+    border-radius: 2px;
+    border:0.2px groove rgb(241, 188, 188); 
+    color: white;
+  }
+  #xup:hover
+  {
+    color:white;
+    background-color: rgb(251, 21, 21);
+      box-shadow: 0px 0px 10px 1px rgb(255, 0, 0);
+  }
+  #Btup
+  {
+    background:none;
+    border-radius: 3px;
+    color:rgb(12, 234, 12);
+    bottom: 10px;
+    box-shadow: -1px 2px 10px 1px rgb(12,234,12);
+    
+    border:0.2px groove  rgb(89, 214, 93); 
+  }
+  #Btup:hover
+  {
+    color: white;
+    background-color: rgb(21, 221, 28);
+  }
+  #Btup:active{
+    margin-top: 2px;
+    box-shadow: -0px 0px 10px 1px rgb(12,234,12);
+  }
+  #forup
+  {
+    padding-left: 100px;
+  }
+  fieldset
+  {
+    width: 250px;
+    height: 50px;
+    border-color: grey;
+  }
+  #baseup
+  {
+    height: 328px;
+  }
+  #signuptable tr
+  {
+    height: 80px;
+  }
+  #termup
+  {
+    font-family: cursive;
+
+  }
+  #suxup
+  {
+    padding-left: 85px;
+    font-family: cursive;
+    bottom: 2px;
+  }
+#logup 
+{
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width:110px;
+      height:50px;
+}
+.totalup
+  {
+    height: 100vh;
+    width: 100%;
+    /* border: 5px groove; */
+    background-image: url("../Images/silhouettes-hills-street-lamps-cloudy-sky-during-beautiful-sunset.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

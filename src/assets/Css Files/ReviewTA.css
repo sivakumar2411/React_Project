@@ -1,0 +1,83 @@
+#boxre
+{
+    position: absolute;
+    border: 0px groove white;
+    height: 550px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+#outre
+{
+    height: 721px;
+    width: 100%;
+    border: 5px groove;
+    background-image: url("../Images/back4.avif");
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+}
+#botre
+{
+    color: rgb(13, 0, 255);
+    font-size: 15px;
+    margin-left: 31px;
+}
+#tabre
+{
+    position: absolute;
+    /* border: 2px groove grey; */
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#heire
+{
+    height: 20px;
+}
+#onere
+{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 115px;
+    font-size: 20px;
+}
+#onre
+{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 119px;
+}
+#twore
+{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 216px;
+}
+#sxre
+{
+    position: absolute;
+}
+#namere
+{
+    margin-left: 30px;
+}
+#Btre
+  {
+    background-color:  rgbrgba(237, 115, 71, 0.838);
+    border-radius: 3px;
+    border-radius: 2px;
+    color: orangered;
+    border:0.2px groove rgba(237, 115, 71, 0.838); 
+    margin-left: 150px;
+    margin-top: 375px;
+}
+#Btre:hover
+{
+    background-color:  orangered;
+    border:0.2px groove   orangered; 
+      box-shadow: 0px 0px 10px 3px orangered;
+      color: white;
+
+}
